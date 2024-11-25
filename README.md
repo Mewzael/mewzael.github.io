@@ -1,6 +1,3 @@
-# mewzael.github.io
-
-Please follow the instructions below to finish the setup of your new Qubt site.
 
 ## Installation
 

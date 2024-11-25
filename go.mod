@@ -1,3 +1,3 @@
-module github.com/chrede88/qubt
+module github.com/Mewzael/mewzael.github.io
 
 go 1.23.3

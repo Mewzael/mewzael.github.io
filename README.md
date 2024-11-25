@@ -1,49 +1,46 @@
-# Qubt - Simple Personal Blog Hugo Theme
+# Qubt - Template
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/chrede88/qubt/main/images/screenshot.png" alt="Qubt - Simple Personal Blog Hugo Theme">
-</p>
+This is the theme template repository! **Please** follow the installation instructions below.
+If you're looking for the actual theme repository, follow this [link](https://github.com/Chrede88/qubt).
 
-<p align="center">
-  <img src="https://img.shields.io/github/v/release/chrede88/qubt?color=blue" alt="Release">
-  <img src="https://img.shields.io/badge/min_Hugo-v0.119.0-blue" alt="Hugo version">
-  <img src="https://github.com/chrede88/qubt/actions/workflows/testBuild.yml/badge.svg" alt="Main Branch Build">
-  <img src="https://github.com/chrede88/qubt/actions/workflows/buildDeploy.yml/badge.svg" alt="Main Branch Build">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/chrede88/qubt/main/lighthouse/lighthouse_performance.svg" alt="Performace">
-  <img src="https://raw.githubusercontent.com/chrede88/qubt/main/lighthouse/lighthouse_accessibility.svg" alt="Accessibility">
-  <img src="https://raw.githubusercontent.com/chrede88/qubt/main/lighthouse/lighthouse_best-practices.svg" alt="Best Practices">
-  <img src="https://raw.githubusercontent.com/chrede88/qubt/main/lighthouse/lighthouse_seo.svg" alt="SEO">
-</p>
+## Installation
 
-Qubt is a simple personal blog theme for [Hugo](https://gohugo.io). The theme is designed mobile-first, with a very intuitive interface. Get your Qubt blog up and running quickly by using the [Qubt template](https://github.com/chrede88/qubtTemplate).
-
-## Screen Dumps
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/chrede88/qubt/main/images/screendump.png" alt="Qubt - Simple Personal Blog Hugo Theme">
-</p>
+1) Use this template by pressing `Use this template`. **Don't fork this repository!**
+2) Wait 20s-30s and update the page. The `Clean Template` workflow will run automatically, creating/poplutating files based on your Github user.
+3) Add a LICENSE to your repo.
+4) Clone your version of the template to your local computer:
+```shell
+git clone https://github.com/<username>/<reponame>
+```
+5) Change the module name to match your github repo in `go.mod`.
+6) Modify `config/_default/hugo.yaml`, `config/_default/params.yaml` and `config/_default/menus.yaml` according to to your needs. Find more info on the theme [wiki](https://github.com/chrede88/qubt/wiki/Configuration).
+7) Add your blog posts to `content/blog/`. See the [wiki](https://github.com/chrede88/qubt/wiki/Content) or example posts for reference.
+8) Modify `content/about.md` so it matches your preferences.
+10) Build a local version of your site by executing `hugo server`. You can see the site by navigating to `localhost:1313` (actual URL will be outputted in the CLI) in a browser.
 
 ---
 
 ## Features
 
 - Simple personal blog theme, designed for mobile-first.
-- Automatic Dark/light mode based on browser and manual switcher.
+- Automatic dark mode (based on system setttings).
 - Emoji support for a fun design.
 - Healthcheck endpoint (/healthcheck.json).
 
 ---
 
-## Installation
+## Configuration
 
-1) Make sure you have Hugo and Go installed on your local machine. Read the instructions [here](https://gohugo.io/installation/).
-2) Follow this link to the theme [template](https://github.com/chrede88/qubtTemplate).
-3) Follow the installation instructions in the template repo.
+See the [wiki](https://github.com/chrede88/qubt/wiki) for all info about configuration and how to easily deploy to Github Pages.
 
 ---
 
-## Wiki
+## Update the Theme Version
+The theme version used to build the site is defined in `go.mod` file.
 
-See the [wiki](https://github.com/chrede88/qubt/wiki) for all info about configuration, customization, how to update to the newest theme version and how to easily deploy to Github Pages.
+The best practice is to update to released and tested versions. To update to a specific version execute the following command in a terminal/commandline (at the root path of your site repo):
+
+```shell
+  hugo mod get github.com/chrede88/qubt@vX.Y.Z
+```
+Replace X,Y & Z with the corresponding version numbers. You can find the releases [here](https://github.com/chrede88/qubt/releases). Please check if any breaking changes are listed under the release you want to update to, before proceeding.

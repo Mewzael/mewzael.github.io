@@ -15,7 +15,9 @@
       "description": "Update Hugo/Go version in Github actions",
       "customType": "regex",
       "fileMatch": ["^.github/(?:workflows|actions)/.+\\.ya?ml$"],
-      "matchStrings": ["datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.*?'(?<currentValue>.*)'\n"],
+      "matchStrings": [
+        "datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.*?'(?<currentValue>.*)'\n"
+      ],
       "versioningTemplate": "semver-coerced",
       "extractVersionTemplate": "^(v|go)?(?<version>.*)$"
     }
@@ -29,22 +31,6 @@
     {
       "matchDatasources": ["golang-version"],
       "rangeStrategy": "bump"
-    },
-    {
-      "matchUpdateTypes": ["major"],
-      "labels": ["type/major"]
-    },
-    {
-      "matchUpdateTypes": ["minor"],
-      "labels": ["type/minor"]
-    },
-    {
-      "matchUpdateTypes": ["patch"],
-      "labels": ["type/patch"]
-    },
-    {
-      "matchFileNames": ["**/*"],
-      "addLabels": ["auto-merge"]
     }
   ]
 }

@@ -1,4 +1,4 @@
-name: Main Branch Build
+name: Template Build
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-deploy: 
-    name: Test Build exampleSite
+    name: Test Build template
     runs-on: ubuntu-24.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
@@ -32,6 +32,8 @@ jobs:
           hugo-version: '0.139.2'
           extended: true
           
+      - name: Clean cache
+        run: hugo mod clean
+
       - name: Build
-        working-directory: ./exampleSite
-        run: hugo --minify --themesDir ../.. --baseURL https://chrede88.github.io/qubt/
+        run: hugo --minify

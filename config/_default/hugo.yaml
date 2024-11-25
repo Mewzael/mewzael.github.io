@@ -2,8 +2,8 @@
 ## CHANGE THESE
 ############################
 
-baseURL: "https://mewzael.github.io"
-title: "Qubt Theme"
+baseURL: "https://Mewzael.github.io/mewzael.github.io"
+title: mewzael.github.io
 
 ############################
 ## MISC
@@ -13,8 +13,3 @@ enableEmoji: true
 disableKinds: ["taxonomy", "term"]
 languageCode: "en-us"
 enableRobotsTXT: true
-markup:
-  goldmark:
-    renderHooks:
-      image:
-        enableDefault: true

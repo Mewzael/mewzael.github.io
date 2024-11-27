@@ -1,3 +1,3 @@
-module github.com/chrede88/qubt
+module github.com/luizdepra/hugo-coder
 
-go 1.23.3
+go 1.16

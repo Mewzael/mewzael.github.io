@@ -1,4 +1,4 @@
-module github.com/mewzael/mewzael.github.io
+module github.com/chrede88/qubtTemplate
 
 go 1.23.3
 

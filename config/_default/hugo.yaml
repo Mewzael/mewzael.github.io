@@ -3,7 +3,7 @@
 ############################
 
 baseURL: "https://Mewzael/mewzael.github.io"
-title: mewzael.github.io
+title: "Qubt Theme"
 
 ############################
 ## MISC
@@ -13,3 +13,8 @@ enableEmoji: true
 disableKinds: ["taxonomy", "term"]
 languageCode: "en-us"
 enableRobotsTXT: true
+markup:
+  goldmark:
+    renderHooks:
+      image:
+        enableDefault: true

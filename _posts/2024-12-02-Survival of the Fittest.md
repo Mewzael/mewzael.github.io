@@ -2,12 +2,11 @@
 title: Survival of the Fittest Challenge
 date: 2024-12-2 +0700
 categories: [HTB, Blockchain]
-tags: [TAG]
+tags: [Self-Development]
 image:
   path: /images/Survival%20of%20the%20Fittest%201.png
----
-
 description: A write-up from a challenge at Hack The Box
+---
 
 ## Information
 First of all i was given an URL, here is the first look:
@@ -25,5 +24,4 @@ Turns out it give you all the information you need to solve the challenge, hold 
 ## Connection
 ![Connection Section](/images/Survival%20of%20the%20Fittest%203.png)
 This section is the core information you need to solve the Challenge, alright everything has been wrote down, lets try to solve the challenge!
-
 

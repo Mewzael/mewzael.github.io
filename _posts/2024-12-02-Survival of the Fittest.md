@@ -127,7 +127,7 @@ here is the step by step on how to use foundpy based on my experience
 7. lastly, call the function and print the output, if the output is something like this
 `b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01'`
 8. Congratulations! you just solved a blockchain challenge! keep up the good work~
-9. now access the <http://url/flag> to get you flag and submit it to the HTB to mark it as solved
+9. now access the http://url/flag to get you flag and submit it to the HTB to mark it as solved
 
 that's all to do the Survival of the Fittest Challenges
 thank you for reading :3

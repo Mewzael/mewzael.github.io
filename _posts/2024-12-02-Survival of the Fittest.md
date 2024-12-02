@@ -23,5 +23,5 @@ Turns out it give you all the information you need to solve the challenge, hold 
 
 ## Connection
 ![Connection Section](/images/Survival%20of%20the%20Fittest%203.png)
-This section is the core information you need to solve the Challenge, alright everything has been wrote down, lets try to solve the challenge!
+This section is the core information you need to solve the Challenge, alright everything has been written down, lets try to solve the challenge!
 

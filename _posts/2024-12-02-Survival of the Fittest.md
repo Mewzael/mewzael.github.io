@@ -1,9 +1,11 @@
+---
 title: Survival of the Fittest Challenge
 date: 2024-12-2 +0700
 categories: [HTB, Blockchain]
 tags: [TAG]
 image:
   path: /images/Survival%20of%20the%20Fittest%201.png
+---
 
 description: A write-up from a challenge at Hack The Box
 
@@ -14,4 +16,14 @@ First of all i was given an URL, here is the first look:
 There is just a restart button and an attack button, but no matter how many times i press the attack button it wont just die, alright since there is docs, Home, and Connection page on the header, let's visit it one by one
 
 ## Home
-Yeah the same as the first look
+Yeah the same as the pciture above
+
+## Docs
+![Docs Section](/images/Survival%20of%20the%20Fittest%202.png)
+Turns out it give you all the information you need to solve the challenge, hold it dearly and read carefully!
+
+## Connection
+![Connection Section](/images/Survival%20of%20the%20Fittest%203.png)
+This section is the core information you need to solve the Challenge, alright everything has been wrote down, lets try to solve the challenge!
+
+
